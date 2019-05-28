@@ -14,3 +14,16 @@ const takeANumber = (katzDeliLine, name) => {
   }
 
 }
+
+
+// // 2) Build a function nowServing. This function should accept the current line of people (katzDeliLine) and return the first person in line and then remove that individual from the line. If there is nobody in line, it should return "There is nobody waiting to be served!"
+
+
+const nowServing = katzDeliLine => {
+  let first = katzDeliLine.shift();
+  if (first == undefined) {
+    return `There is nobody waiting to be served!`;
+  } else {
+    return first;
+  }
+};
