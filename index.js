@@ -21,7 +21,7 @@ const takeANumber = (katzDeliLine, name) => {
 
 const nowServing = katzDeliLine => {
   let first = katzDeliLine.shift();
-  if (first == undefined) {
+  if (first === undefined) {
     return `There is nobody waiting to be served!`;
   } else {
     return first;
