@@ -24,6 +24,6 @@ const nowServing = katzDeliLine => {
   if (first === undefined) {
     return `There is nobody waiting to be served!`;
   } else {
-    return first;
+    return `Currently serving ${first}.`;
   }
 };
