@@ -8,4 +8,4 @@ const takeANumber = (position, name) => {
   }
 
 }
-takeANumber(5, 'Jamal');
+takeANumber(1, 'Ada');
